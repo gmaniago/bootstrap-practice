@@ -1,0 +1,27 @@
+@import url(../node_modules/bootstrap/dist/css/bootstrap.css);
+.navbar-brand {
+  font-size: 1.5em;
+  font-weight: bolder;
+  letter-spacing: 0.05em; }
+
+span {
+  color: #2C7FCE; }
+
+button.navbar-toggle.collapsed {
+  background: #2A87CF;
+  border: none; }
+
+.navbar-default {
+  background: #fff;
+  margin: 0 auto; }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff; }
+
+.banner {
+  background-image: url(https://raw.githubusercontent.com/TIY-Austin-Front-End-Engineering/bootstrap-grid/master/images/hero-image.jpg);
+  width: 100%;
+  height: 25em;
+  text-align: center;
+  color: #fff;
+  padding-top: 7em;
+  font-weight: lighter; }
