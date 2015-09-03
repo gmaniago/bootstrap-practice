@@ -1,5 +1,8 @@
 @import '../node_modules/bootstrap/dist/css/bootstrap.css';
 
+* {
+	font-family: Open Sans;
+}
 .navbar-brand {
 	font-size: 1.5em;
 	font-weight: bolder;
@@ -26,7 +29,7 @@ button.navbar-toggle.collapsed {
 }
 
 .banner {
-	background-image: url(https://raw.githubusercontent.com/TIY-Austin-Front-End-Engineering/bootstrap-grid/master/images/hero-image.jpg);
+	background-image: url(/images/hero-dark.jpg);
 	width: 100%;
 	height: 25em;
 	text-align: center;
@@ -35,13 +38,54 @@ button.navbar-toggle.collapsed {
 	font-weight: lighter;
 }
 	
+.details {
+	color: #8D8D8D;
+	padding: 0em 5em;
+}
 
+.details2 {
+	color: #8D8D8D;
+	padding: 0em 2em;
+	margin-bottom: 2em;
+}
 
+button.btn.btn-primary {
+	padding-left: 4em;
+	padding-right: 4em;
+	margin: 1em 0em ; 
+}
 
+.well {
+	margin-top: 2em;
+	margin-left: 2em;
+	margin-right: 2em;
+	color: #8D8D8D;
+	padding: 0.5em;
+}
 
+.fourpic {
+	display: block;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+p {
+	color: #8D8D8D;
+}
 
+.bike {
+	margin-bottom: 2em;
+}
 
+.footer {
+	color: #8D8D8D;
+	background: #39404B;
+}
+ .about {
+ 	text-decoration: underline;
 
+ }
 
-
+.well {
+	display: inline:block;
+}
 
