@@ -30,14 +30,17 @@ button.navbar-toggle.collapsed {
 
 .banner {
 	background-image: url(/images/hero-dark.jpg);
+	background-size: cover;
 	width: 100%;
-	height: 25em;
+	height: 20em;
 	text-align: center;
 	color: #fff;
-	padding-top: 7em;
 	font-weight: lighter;
 }
-	
+
+.hero {
+	padding-top: 5em;
+}
 .details {
 	color: #8D8D8D;
 	padding: 0em 5em;
@@ -86,6 +89,7 @@ p {
  }
 
 .well {
-	display: inline:block;
+	display: inline-block;
 }
+
 
