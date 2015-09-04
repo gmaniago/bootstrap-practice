@@ -42,9 +42,8 @@ button.navbar-toggle.collapsed {
   margin-bottom: 2em; }
 
 button.btn.btn-primary {
-  padding-left: 4em;
-  padding-right: 4em;
-  margin: 1em 0em; }
+  padding-left: 3em;
+  padding-right: 3em; }
 
 .well {
   margin-top: 2em;
@@ -71,5 +70,14 @@ p {
 .about {
   text-decoration: underline; }
 
-.well {
-  display: inline-block; }
+@media screen and (min-width: 48em) {
+  .title {
+    text-align: right; }
+  .text {
+    text-align: left; } }
+
+@media screen and (min-width: 75em) {
+  .title {
+    text-align: center; }
+  .text {
+    text-align: center; } }
